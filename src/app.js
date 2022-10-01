@@ -119,7 +119,7 @@ io.on('connection', (socket) => {
           default:
                 arr.push("3")
         }
-        arr.push(s[1])
+        arr.push(s[13])
         return arr
     } 
 
@@ -133,7 +133,7 @@ io.on('connection', (socket) => {
         var alreadyPresent = false
         for (var x in userData) {
             if (userData[x].user == user && userData[x].room == room) {
-                alreadyPresent = true
+                alreadyPresent = False
             }
         }
         // console.log(userData);
